@@ -6,7 +6,7 @@ import { MatPaginatorModule } from '@angular/material/paginator'
 import { MatIconModule } from "@angular/material/icon";
 import { MatInputModule } from "@angular/material/input";
 import { MatSelectModule } from "@angular/material/select";
-
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   imports: [
@@ -15,7 +15,8 @@ import { MatSelectModule } from "@angular/material/select";
     MatTableModule,
     MatIconModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule,
+    MatSortModule
   ],
   exports: [DatatableComponent],
   providers: [],
