@@ -1,0 +1,64 @@
+.panel {
+  background-color: #FFF;
+  padding: 10px;
+  margin: 25px;
+}
+
+.subpanel {
+  // display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  min-height: 3rem;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px 0px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  height: calc(1.47em + 1rem + 2px);
+  padding: 0.5rem 0.875rem;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.47;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  min-width: 15rem;
+}
+
+.title {
+  font-size: 1.375rem;
+  font-weight: 500;
+  color: #505050;
+  text-shadow: #fff 0 1px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  margin: 25px;
+}
+.table {
+  margin: 25px
+}
+
+table {
+  width: 80vw
+}

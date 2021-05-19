@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  // width: 80vw;
+  // margin:
+  background-color: white;
+  padding: 15px 50px;
+}
+
+.menu {
+  background-color: black;
+  height: 25px;
+  width: 25px;
+}
+
+.pp {
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}

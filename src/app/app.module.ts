@@ -1,24 +1,32 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
+import { DatatableModule } from '../app/datatable/datatable.module';
+import { FooterModule } from '../app/footer/footer.module';
+import { HeaderModule } from '../app/header/header.module';
+import { SidebarModule } from '../app/sidebar/sidebar.module';
+import { HomeModule } from '../app/home/home.module';
+
 import { AppComponent } from './app.component';
-import { HeroesComponent } from './heroes/heroes.component';
-import { HeroDetailComponent } from './hero-detail/hero-detail.component';
-import { MessagesComponent } from './messages/messages.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroesComponent,
-    HeroDetailComponent,
-    MessagesComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    DatatableModule,
+    SidebarModule,
+    FooterModule,
+    HeaderModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
