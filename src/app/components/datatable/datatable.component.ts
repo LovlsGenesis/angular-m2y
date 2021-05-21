@@ -6,10 +6,10 @@ import {MatPaginator} from '@angular/material/paginator';
 import {MatSort} from '@angular/material/sort';
 
 // Models
-import { User } from '../models/user'
+import { User } from '../../models/user'
 
 // Services
-import { UserService } from "../services/user.service"
+import { UserService } from "../../services/user.service"
 
 /**
  * @title Table with filtering

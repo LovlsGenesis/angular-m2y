@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser'
 import { SidebarComponent } from './sidebar.component'
 
 
-import { AppComponent } from '../app.component'
+import { AppComponent } from '../../app.component'
 import { HomeComponent } from '../home/home.component'
 
 const routes: Routes = [
