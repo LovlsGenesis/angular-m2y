@@ -21,7 +21,7 @@ import { UserService } from "../services/user.service"
 })
 
 
-export class DatatableComponent implements OnInit,AfterViewInit {
+export class DatatableComponent implements OnInit {
   user = {} as User
   users: User[] = []
 
@@ -35,14 +35,8 @@ export class DatatableComponent implements OnInit,AfterViewInit {
     // Assign the data to the data source for the table to render
   }
 
-  ngOnInit(){
-    let users = this.getCars
-    this.dataSource = new MatTableDataSource(this.users);
-  }
-
-  ngAfterViewInit() {
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
+  ngOnInit() {
+    this.getUsers();
   }
 
   title = 'Usuários';
@@ -56,10 +50,11 @@ export class DatatableComponent implements OnInit,AfterViewInit {
     }
   }
 
-  getCars() {
+  getUsers() {
     this.userService.getUsers().subscribe((users: User[]) => {
-      console.log(users)
-      this.users = users;
+      this.dataSource = new MatTableDataSource(users);
+      this.dataSource.paginator = this.paginator;
+      this.dataSource.sort = this.sort;
     });
   }
 }
