@@ -1,0 +1,26 @@
+{
+  "users": [
+    {"name": "Guillaume Zeldine", "cpf": "238.304.038-01", "account_ids": [1], "card_ids": [234, 346], "registration_id": "86ee2682-ff64-4dc5-9fe9-5c5ad362e556","alias_bank": "655 1111 5772529 - 7", "created_at": "02/03/2021 13:08"},
+    {"name": "Test Test", "cpf": "999.999.999-99", "account_ids": [2], "card_ids": [159], "registration_id": "6358f8c3-666d-41b3-8703-6f5e42c0586f","alias_bank": "655 1111 5772513 - 7", "created_at": "21/01/2021 17:55"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [3], "card_ids": [432], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [4], "card_ids": [562], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [5], "card_ids": [412], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [6], "card_ids": [742], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [7], "card_ids": [913], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [8], "card_ids": [852], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [9], "card_ids": [84], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [10], "card_ids": [985], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [11], "card_ids": [833], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [12], "card_ids": [312], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [13], "card_ids": [553], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [14], "card_ids": [699], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [15], "card_ids": [241], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [16], "card_ids": [164], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [17], "card_ids": [932], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [18], "card_ids": [109], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [19], "card_ids": [304], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [20], "card_ids": [110], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"},
+    {"name": "Bertrano Silva", "cpf": "999.999.999-99", "account_ids": [21], "card_ids": [957], "registration_id": "bc13c071-6d5e-4107-8068-cdab5e893caa", "alias_bank": "655 1111 5772513 - 6", "created_at": "21/01/2021 18:12"}
+  ]
+}
+
