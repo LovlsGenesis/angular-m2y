@@ -7,14 +7,14 @@ import { HttpClientModule } from '@angular/common/http';
 
 // App Components' Module
 import { AppRoutingModule } from './app-routing.module';
-import { DatatableModule } from '../app/components/datatable/datatable.module';
 import { FooterModule } from '../app/components/footer/footer.module';
 import { HeaderModule } from '../app/components/header/header.module';
 import { SidebarModule } from '../app/components/sidebar/sidebar.module';
-import { HomeModule } from '../app/components/home/home.module';
+import { ContentModule } from '../app/components/content/content.module';
 
 // Component
 import { AppComponent } from './app.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -27,11 +27,11 @@ import { AppComponent } from './app.component';
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    DatatableModule,
     SidebarModule,
     FooterModule,
     HeaderModule,
-    HomeModule,
+    ContentModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
