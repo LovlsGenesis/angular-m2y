@@ -64,9 +64,13 @@ table {
 }
 
 td:not(:last-child) {
-  padding-top: 15px;
+  padding-top: 25px;
 }
 
 td:last-child {
-  padding-top: 5px;
+  padding-top: 10px;
+}
+
+.panel-content {
+  margin-bottom: 50px;
 }
