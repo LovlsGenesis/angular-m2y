@@ -21,6 +21,9 @@
 
 .tabs li:hover {
   background-color: #006a9b;
+  height: 30px;
+  margin: 0px .5em ;
+  transition: 0.05s;
 }
 
 a {

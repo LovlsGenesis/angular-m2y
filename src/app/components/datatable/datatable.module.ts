@@ -7,6 +7,9 @@ import { MatIconModule } from "@angular/material/icon";
 import { MatInputModule } from "@angular/material/input";
 import { MatSelectModule } from "@angular/material/select";
 import { MatSortModule } from '@angular/material/sort';
+import { MatButtonModule } from '@angular/material/button';
+
+// import { MatFormFieldModule, MatTableModule } from '@angular/material'
 
 @NgModule({
   imports: [
@@ -16,7 +19,8 @@ import { MatSortModule } from '@angular/material/sort';
     MatIconModule,
     MatInputModule,
     MatSelectModule,
-    MatSortModule
+    MatSortModule,
+    MatButtonModule
   ],
   exports: [DatatableComponent],
   providers: [],
