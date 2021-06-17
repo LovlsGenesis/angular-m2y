@@ -11,9 +11,10 @@ export class UserService {
 
   baseUrl = 'http://127.0.0.1:3000/users'
 
+  // injetando o HttpClient
   constructor(private httpClient: HttpClient) { }
 
-  // Get Users
+  // Bate na api para recuperar a lista de usuários
   getUsers(): Observable<User[]> {
     return this.httpClient.get<User[]>(this.baseUrl)
     .pipe(

@@ -1,5 +1,5 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
-import { getInstanceByDom, connect, EChartsOption } from 'echarts';
+import { AfterViewInit, Component } from '@angular/core';
+import { EChartsOption } from 'echarts';
 
 @Component({
   selector: 'home',
@@ -32,7 +32,7 @@ export class HomeComponent implements AfterViewInit {
       type: 'value',
     },
     series: {
-      name: 'Counters',
+      name: 'Contas',
       type: 'bar',
       barWidth: '60%',
       data: [1, 5, 2, 3, 3, 9, 2],

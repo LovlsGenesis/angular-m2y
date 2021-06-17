@@ -2,28 +2,23 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser'
 
+// Importando componente
 import { ContentComponent } from './content.component'
 
+// Importando Modulos
 import { HomeModule } from '../home/home.module';
 import { DatatableModule } from '../datatable/datatable.module';
 
+// Importando as rotas
+import { contentRoutes } from './content-routing.module'
 
-import { AppComponent } from '../../app.component'
-import { HomeComponent } from '../home/home.component'
-
-const routes: Routes = [
-  // { path: '', redirectTo: '/users', pathMatch: 'full' },
-  { path: 'users', component: AppComponent },
-  { path: 'test', component: HomeComponent },
-];
-
-
+// Importar o module para poder usar no html
 @NgModule({
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(contentRoutes),
     HomeModule,
-    DatatableModule
+    DatatableModule,
   ],
   exports: [ContentComponent],
   declarations: [ContentComponent],

@@ -7,10 +7,10 @@ import { HttpClientModule } from '@angular/common/http';
 
 // App Components' Module
 import { AppRoutingModule } from './app-routing.module';
-import { FooterModule } from '../app/components/footer/footer.module';
-import { HeaderModule } from '../app/components/header/header.module';
-import { SidebarModule } from '../app/components/sidebar/sidebar.module';
-import { ContentModule } from '../app/components/content/content.module';
+import { FooterModule } from '../footer/footer.module';
+import { HeaderModule } from '../header/header.module';
+import { SidebarModule } from '../sidebar/sidebar.module';
+import { ContentModule } from '../content/content.module';
 
 // Component
 import { AppComponent } from './app.component';
@@ -22,16 +22,16 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppComponent,
   ],
   imports: [
+    NgbModule,
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
     SidebarModule,
     FooterModule,
     HeaderModule,
     ContentModule,
-    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

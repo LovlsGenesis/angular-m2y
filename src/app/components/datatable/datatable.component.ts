@@ -31,6 +31,7 @@ export class DatatableComponent implements OnInit {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
+  // injetando o UserService
   constructor(private userService: UserService) {
     // Assign the data to the data source for the table to render
   }
@@ -50,6 +51,7 @@ export class DatatableComponent implements OnInit {
     }
   }
 
+  // Chama a API via o service
   getUsers() {
     this.userService.getUsers().subscribe((users: User[]) => {
       this.dataSource = new MatTableDataSource(users);
